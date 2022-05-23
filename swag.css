@@ -10,8 +10,7 @@
    cursor: url("https://sob.beauty/favicon.png"), auto;
 }
 html {
-  background-color: #8904b1;
-  animation: fadebackground 6s;
+
 }
 body{
   overflow-y: hidden;
@@ -24,6 +23,8 @@ body{
 }
 html, body, section {
     height: 90vh;
+    background-color: #8904b1;
+    animation: fadebackground 6s;
 }
 section{
   display: -webkit-flexbox;
