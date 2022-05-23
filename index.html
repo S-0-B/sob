@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SOB</title>
+<style>
+  html{font-family:sans-serif;text-align:center;padding-top:20vh;}
+</style>
+</head>
+<body>
+<h1></h1>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"   integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="   crossorigin="anonymous"></script>
+<script>
+  var textToShow = ['Son of Bitch', 'Sexy Optimistic Bohems', 'Sexy Optimistic Bohems', 'Surgically Optimal Bias', 'Strange Oxydation Bullshit', 'Sugar Over Bills']
+  $(document).ready(function() {
+      $("h1").html(textToShow[Math.floor(Math.random()*textToShow.length)]);
+  });
+</script>
+
+</body>
+</html>
