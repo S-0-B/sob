@@ -10,12 +10,12 @@
    cursor: url("https://sob.beauty/favicon.png"), auto;
 }
 html {
+  background-color: #8904b1;
   animation: fadebackground 6s;
 }
 body{
   overflow-y: hidden;
   color: #01df01;
-  background-color: #8904b1;
   -webkit-animation: fadein 1s;
       -moz-animation: fadein 1s;
        -ms-animation: fadein 1s;
