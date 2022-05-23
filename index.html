@@ -2,22 +2,21 @@
 <html>
 <head>
 <title>SOB</title>
-<link rel="icon" type="image/x-icon" href="/favicon.png">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<meta name="theme-color" content="#8904b1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-<style>
-body,h1,html{height:100%;font-family:'Permanent Marker',cursive}h1{display:-webkit-flexbox;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;justify-content:center}
-</style>
+<link href="swag.css" rel="stylesheet">
 </head>
 <body>
-<h1></h1>
+
+<section>
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+</section>
+
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"   integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="   crossorigin="anonymous"></script>
-<script>
-  var textToShow = ['Son of a Bitch', 'Sexy Optimistic Bohems', 'Surgically Optimal Bias', 'Strange Oxydation Bullshit', 'Sugar Over Bills', 'Space Owns Burgers', 'Squares Obfuscate Basics', 'Speeches Obtain Blankets']
-  $(document).ready(function() {
-      $("h1").html(textToShow[Math.floor(Math.random()*textToShow.length)]);
-  });
-</script>
+<script src="swag.js"></script>
 </body>
 </html>
