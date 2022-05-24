@@ -8,17 +8,18 @@
 }
 body{
   overflow-y: hidden;
+  overflow-x: hidden;
   color: #01df01;
-  -webkit-animation: fadein 1s;
-      -moz-animation: fadein 1s;
-       -ms-animation: fadein 1s;
-        -o-animation: fadein 1s;
-           animation: fadein 1s;
+  -webkit-animation: fadein 4s;
+      -moz-animation: fadein 4s;
+       -ms-animation: fadein 4s;
+        -o-animation: fadein 4s;
+           animation: fadein 4s;
 }
 html, body, section {
     height: 90vh;
     background-color: #8904b1;
-    animation: fadebackground 2s;
+    animation: fadebackground 6s;
     cursor: crosshair;
 }
 section{
@@ -74,4 +75,8 @@ section{
 @keyframes fadebackground {
   from {background-color: #01df01;}
   to {background-color: #8904b1;}
+}
+::selection {
+  color: red;
+  background: #01df01;
 }
