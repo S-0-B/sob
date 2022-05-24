@@ -49,6 +49,11 @@ section{
     text-align: center;
     padding-top: 20vh;
   }
+  .first,
+  .second,
+  .third{
+    font-size: 1rem;
+  }
 }
 @keyframes fadein {
     from { opacity: 0; }
