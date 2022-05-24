@@ -15,3 +15,4 @@ $(document).ready(function() {
 $('section').click(function() {
     location.reload();
 });
+const tilt = $('.js-tilt').tilt();

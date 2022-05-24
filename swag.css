@@ -19,7 +19,6 @@ html, body, section {
     height: 90vh;
     background-color: #8904b1;
     animation: fadebackground 2s;
-    cursor: crosshair;
 }
 section{
   display: -webkit-flexbox;
@@ -31,7 +30,6 @@ section{
      -webkit-align-items: center;
      align-items: center;
      justify-content: center;
-     text-align: center;
  }
 .first,
 .second,
@@ -39,7 +37,7 @@ section{
   font-family: 'VT323', monospace;
   font-size: 5rem;
   line-height: 1;
-  display: inline;
+  display: block;
   margin-left: 1%;
   margin-right: 1%;
 }
@@ -52,7 +50,8 @@ section{
   .first,
   .second,
   .third{
-    font-size: 1rem;
+    font-size: 3rem;
+    display: block;
   }
 }
 @keyframes fadein {
