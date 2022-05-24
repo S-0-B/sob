@@ -12,7 +12,7 @@ $(document).ready(function() {
     $(".third").html(textToShow3[Math.floor(Math.random()*textToShow3.length)]);
 });
 
-$('section').click(function() {
+$('body').click(function() {
     location.reload();
 });
 const tilt = $('.js-tilt').tilt();
