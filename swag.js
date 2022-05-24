@@ -1,6 +1,6 @@
-var textToShow1 = ['Son', 'Sexy', 'Surgically', 'Strange', 'Sugar', 'Space', 'Squares', 'Speeches']
-var textToShow2 = ['of a', 'Optimistic', 'Optimal', 'Oxydation', 'Over', 'Owns', 'Obfuscate', 'Obtain']
-var textToShow3 = ['Bitch', 'Bohems', 'Bias', 'Bullshit', 'Bills', 'Burgers', 'Basics', 'Blankets']
+var textToShow1 = ['Son', 'Sexy', 'Surgically', 'Strange', 'Sugar', 'Space', 'Squares', 'Speeches', 'Summoned', 'Supersonic', 'Sunmmoned', 'Surprised', 'Swallowed', 'Swinger', 'Sage', 'Sacrifice', 'Safeguard']
+var textToShow2 = ['of a', 'Optimistic', 'Optimal', 'Oxydation', 'Over', 'Owns', 'Obfuscate', 'Obtain', 'Oxygen', 'Overroasted', 'Occurence', 'Ommitable', 'Omnisexual', 'Ombrophyle', 'Oysterfish', 'Obsolete']
+var textToShow3 = ['Bitch', 'Bohems', 'Bias', 'Bullshit', 'Bills', 'Burgers', 'Basics', 'Bukkake', 'Blankets', 'Backfire', 'Buthered', 'Byproduct', 'Backpacker', 'Burlesquer', 'Buttonbush', 'Babysiter', 'Backwash', 'Battlefield']
 
 $(document).ready(function() {
     $(".first").html(textToShow1[Math.floor(Math.random()*textToShow1.length)]);
